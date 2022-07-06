@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  height: 84vh;
+  /* background-color: #fefedf; */
+}
+
+/* LOGO  */
+.logo img {
+  cursor: pointer;
+  width: 150px;
+  height: auto;
+}
+
+/* HERO Section  */
+
+.content h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #31343c;
+  padding-bottom: 1rem;
+}
+
+.content p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 27px;
+}
+.content .hero-cta {
+  padding-top: 50px;
+}
+.content .hero-cta button {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 6px 30px;
+  color: white;
+  background-color: #5271ff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.content .hero-cta button:hover {
+  background: #5111ff;
+}
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vh;
+}
+
+.container .img {
+  height: 10vw;
+  flex: 0 0 40vw;
+  display: flex;
+  align-items: flex-start;
+}
+.img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 7vh;
+  padding-right: 10vw;
+}
+.img img {
+  height: 450px;
+  opacity: 0.88;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 8vw;
+  padding-top: 16vh;
+  padding-left: 8vw;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-hero {
+  height: 10vh;
+  overflow: hidden;
+}
+
+.courses img {
+  height: 3vh;
+}
+
+.courses h3 {
+  color: #777;
+  font-size: 1.4rem;
+}
+
+.sub-hero-img {
+  margin-left: 2vh;
+  padding-top: 3vh;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.grid-row-span-2 {
+  grid-row: span 2;
+}
+
+/* END HERO Section */
+
+/* HERO Media Queries */
+@media (max-width: 980px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content h1 p {
+    align-content: center;
+  }
+  .img {
+    margin-top: 0;
+    padding-top: 0;
+    order: 1;
+  }
+  .img img {
+    padding-left: 4vh;
+    height: 30vh;
+  }
+  .content {
+    order: 2;
+  }
+  .courses {
+    order: 3;
+    display: none;
+  }
+}
+
+/* HERO SECTION ......END...... BRUH */
+
+/* SUBTITLE STUFF */
+.sub-title {
+  background: #f4f5ff;
+  padding: 5vh 8vh 0 8vh;
+  min-width: 100vw;
+  color: #606060;
+  font-size: 1.5rem;
+}
+
+/* SUBTITLE ENDS HERE BRUH*/

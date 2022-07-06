@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/mainUtils.css" />
+    <link rel="stylesheet" href="/css/Blog_style.css" />
+    <link rel="stylesheet" href="/css/contactStyle.css" />
+    <title>The Useful Blog</title>
+  </head>
+  <body>
+    <!-- navigation starts -->
+    <nav class="navigation max-width-1 m-auto">
+      <div class="leftNav">
+        <!-- logo of the blog -->
+        <span class="logo">theUsefulBlog</span>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/mainBlog.html">Blog</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="rightNav">
+        <form action="/search.html" method="get">
+          <input
+            class="form-input"
+            type="text"
+            name="query"
+            placeholder="Article Search"
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- navigation ends -->
+    <!-- contact form Starts  -->
+    <section>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="font1">
+            <h2>Contact Info</h2>
+            <ul class="Info">
+              <li>
+                <span><img src="/Images/location.png" alt="" /></span>
+                <span
+                  >21st Street, New Town <br />
+                  Bandra-linking Road, Mumbai <br />
+                  400001</span
+                >
+              </li>
+              <li>
+                <span><img src="/Images/mail.png" alt="" /></span>
+                <span>theusefulspace@gmail.com</span>
+              </li>
+              <li>
+                <span><img src="/Images/call.png" alt="" /></span>
+                <span>991-XXXX-443</span>
+              </li>
+            </ul>
+            <ul class="sci">
+              <li>
+                <a href="https://www.facebook.com/theusefulspace"
+                  ><img src="/Images/1.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com/theusefulspace"
+                  ><img src="/Images/2.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/theusefulspace"
+                  ><img src="/Images/3.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="/Images/4.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="/Images/5.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contactForm font1">
+          <h2>Send a Message</h2>
+          <div class="formBox">
+            <div class="inputBox w50">
+              <input type="text" required />
+              <span>First Name</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" required />
+              <span>Last Name</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="email" required />
+              <span>Email Address</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" required />
+              <span>Mobile Number</span>
+            </div>
+            <div class="inputBox w100">
+              <textarea required></textarea>
+              <span>Write your message here....</span>
+            </div>
+            <div class="inputBox w100">
+              <input type="submit" value="send" class="submitted" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
